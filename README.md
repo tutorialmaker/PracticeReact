@@ -1,45 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PracticeReact 
 
-## Available Scripts
+# goal 
 
-In the project directory, you can run:
+Reactの概念とjsの書き方に慣れてもらって、実務に加われるようになる 
 
-### `npm start`
+# target 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[react tutorial](https://reactjs.org/tutorial/tutorial.html)は一通りやってある前提で話を進めます。　
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+(日本語版: https://mae.chab.in/archives/2943)　
 
-### `npm test`
+時折復習を混ぜるので、完全に理解していなくても良いですが、少なくとも1周はしてからこちらの課題に手をつけて下さい。　 
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# rules 
 
-### `npm run build`
+## (とりあえず試験的なものなので今後変更が加わる可能性があります)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. まず、このリポジトリをフォークして、解答用のブランチを切ってください。
+ - 解答用のブランチ名は「"解答者のユーザー名"/"課題名"」にしてください。(例: nisshii0313/day1)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+2. 解答者は解答用ブランチで解答して、レビュー済みブランチにプルリクエストを送ります。プルリクエストのタイトルは解答した問題のタイトルとしてください。また、プルリクエストの内容に自分の解答の方針、工夫した点を書いてください。出題者はプルリクエストのコードにレビューをします。出題者から"Approve"が出た際、コードは載せずに
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ - 工夫した点 
 
-### `npm run eject`
+ - 詰まったところ
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  などを記事にまとめてください。
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  "Request Changes"が出た際、解答者はプルリクエストを修正してください。
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. 解答者は書いた記事のURLを、出題者にプルリクエストのコメント等で報告してください。出題者は記事の投稿を確認したのち、解答者用ブランチをレビュー済みブランチにマージします。
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## daily
 
-## Learn More
+Reactの基本的知識、技術を身につけます。Day1から取り組むようにしてください。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## weekly
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# PracticeReact
+Reactを用いた実践的なことを行います。dailyよりも難易度が比較的高くなっています。
+
+Reduxについて、ここで触れることを予定してます。
+
+## monthly
+
+何ヶ月かに1回くらいのペースで課題つきのもくもく会やりたいな、って思ってます。
